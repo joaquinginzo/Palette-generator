@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  width: 100vw;
+  height: 5vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+}
+
+.display {
+  height: 95vh;
+  width: 20vw;
+}
+
+button {
+  width: 20px;
+  height: 30px;
+  margin-left: 100px;
+}
+
+.primary {
+  background-color: #bcd8c1;
+}
+
+.secondary {
+  background-color: #E57A44;
+}
+
+.tertiary {
+  background-color: #fff7ae;
+}
+
+.quaternary {
+  background-color: #420404;
+}
+
+.quinary {
+  background-color: #e3655b;
+}
