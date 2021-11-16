@@ -1,58 +1,40 @@
-
-
-
-
-
-
-
-
 body{
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
 header{
     display: flex;
     align-items: flex-start;
     text-align: center;
     width: 100vw;
-    height: 5vh;
+    height: 10vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    h3{
+        margin:10px 10px;
+    }
+    .button-panel{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        button{
+            height: 10vh;
+            width: 100%;
+        }
+    }
 }
 
 .container{
     width: 100vw;
     height: 90vh;
     display: flex;
+    .display{
+        height: 95vh;
+        width: 20vw;
+        text-align: center;
+        color: white;
+    }
+    
 }
 
-.display{
-    height: 95vh;
-    width: 20vw;
-}
-
-button{
-    width:20px;
-    height:30px;
-    margin-left: 100px;
-}
-
-.primary{
-    background-color: #bcd8c1;
-}
-
-.secondary{
-    background-color: #E57A44;
-}
-
-.tertiary{
-    background-color: #fff7ae;
-}
-
-.quaternary{
-    background-color: #420404;
-}
-
-.quinary{
-    background-color: #e3655b;
-}
 
